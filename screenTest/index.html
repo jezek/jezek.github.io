@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>screen test</title>
+	</head>
+	<body>
+		
+		<!-- copied from: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_screen_all -->
+		<h3>Your Screen:</h3>
+
+		<div id="screen_info"></div>
+
+		<script>
+			var txt = "";
+			txt += "<p>Total width/height: " + screen.width + "*" + screen.height + "</p>";
+			txt += "<p>Available width/height: " + screen.availWidth + "*" + screen.availHeight + "</p>";
+			txt += "<p>Color depth: " + screen.colorDepth + "</p>";
+			txt += "<p>Color resolution: " + screen.pixelDepth + "</p>";
+
+			document.getElementById("screen_info").innerHTML = txt;
+		</script>
+	</body>
+</html>
