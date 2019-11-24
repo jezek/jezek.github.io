@@ -7,17 +7,21 @@
 	</head>
 	<body>
 
-		<!-- copied from: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_screen_all -->
+		<!-- copied and edited from: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_screen_all -->
 		<h3>Your Screen:</h3>
 
 		<div id="screen_info"></div>
 
 		<script>
 			var txt = "";
-txt += "<p>Total width/height: " + screen.width + "*" + screen.height + "</p>";
-txt += "<p>Available width/height: " + screen.availWidth + "*" + screen.availHeight + "</p>";
-txt += "<p>Color depth: " + screen.colorDepth + "</p>";
-txt += "<p>Color resolution: " + screen.pixelDepth + "</p>";
+txt += "<p>Screen total width/height: " + screen.width + "*" + screen.height + "</p>";
+txt += "<p>Screen available width/height: " + screen.availWidth + "*" + screen.availHeight + "</p>";
+txt += "<p>Screen color depth: " + screen.colorDepth + "</p>";
+txt += "<p>Screen color resolution: " + screen.pixelDepth + "</p>";
+
+var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+txt += "<hl /><p>Viewport width/height: " + w + "*" + h + "</p>";
 
 document.getElementById("screen_info").innerHTML = txt;
 		</script>
