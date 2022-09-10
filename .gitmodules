@@ -4,3 +4,6 @@
 [submodule "urlchess.v0.1"]
 	path = urlchess.v0.1
 	url = https://github.com/jezek/URLchess.git
+[submodule "vianocne-kolaciky"]
+	path = vianocne-kolaciky
+	url = https://github.com/jezek/Vianocne-kolaciky.git
