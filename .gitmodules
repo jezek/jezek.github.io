@@ -1,3 +1,6 @@
 [submodule "urlchess.v0.8.1"]
 	path = urlchess.v0.8.1
 	url = https://github.com/jezek/URLchess.git
+[submodule "urlchess.v0.1"]
+	path = urlchess.v0.1
+	url = https://github.com/jezek/URLchess.git
