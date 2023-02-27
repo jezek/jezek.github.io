@@ -7,3 +7,6 @@
 [submodule "vianocne-kolaciky"]
 	path = vianocne-kolaciky
 	url = https://github.com/jezek/Vianocne-kolaciky.git
+[submodule "Monitor-slovenciny-pre-ChatGPT"]
+	path = Monitor-slovenciny-pre-ChatGPT
+	url = https://github.com/jezek/Monitor-slovenciny-pre-ChatGPT.git
