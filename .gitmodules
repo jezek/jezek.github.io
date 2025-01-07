@@ -10,3 +10,9 @@
 [submodule "Monitor-slovenciny-pre-ChatGPT"]
 	path = Monitor-slovenciny-pre-ChatGPT
 	url = https://github.com/jezek/Monitor-slovenciny-pre-ChatGPT.git
+[submodule "urlchess.v0.9"]
+	path = urlchess.v0.9
+	url = https://github.com/jezek/URLchess.git
+[submodule "urlchess.v0.10"]
+	path = urlchess.v0.10
+	url = https://github.com/jezek/URLchess.git
